@@ -12,9 +12,9 @@ namespace AES256withRijndael
     {
         public static void ExecuteCryptoTest()
         {
-            string documentFilePath = "../../00_Documents/test.txt";
-            string encryptedFilePath = "../../01_Encrypt/test.txt";
-            string decryptedFilePath = "../../02_Decrypt/test.txt";
+            string documentFilePath = "../../../../00_Documents/test.txt";
+            string encryptedFilePath = "../../../../01_Encrypt/test.txt";
+            string decryptedFilePath = "../../../../02_Decrypt/test.txt";
 
             try
             {
